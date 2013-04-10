@@ -1,0 +1,51 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+
+\begin{document}
+\title{Place the title here.Here.}
+
+\author{\IEEEauthorblockN{Author 1}
+\IEEEauthorblockA{School of Nanana\\
+Lilili Institute of Technology\\
+Beijing,China 123456\\
+Email: author1@affi1.com}
+\and
+\IEEEauthorblockN{Author 2}
+\IEEEauthorblockA{School of Nanana\\
+Lilili Institute of Technology\\
+Beijing,China 123456\\
+Email: author1@affi1.com}
+\and
+\IEEEauthorblockN{Soy Sauce 1\\ and Soy Sauce 2}
+\IEEEauthorblockA{Sisisi Academy\\
+Shanghai, China 200000}}
+
+\maketitle
+
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+\IEEEpeerreviewmaketitle
+
+\section{Title} 
+Section text.
+
+\subsection{insert a graph}
+Plain text.
+
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[height=1in,width=1in]{spiral}
+\caption{This is a png figure.}
+\end{center}
+\end{figure}
+
+\subsection{cite a literature}
+Let's cite\cite{Zhang:2012:FST:2338965.2336767} here.
+
+\bibliographystyle{IEEEtran}
+\bibliography{mybibfile}
+
+\end{document}
